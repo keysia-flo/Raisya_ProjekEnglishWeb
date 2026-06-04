@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Quiz - 15 Questions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="back to….jpg">
+
+    <div class="quiz-container">
+        <div id="question-container">
+            <div class="header">
+                <h1>English Quiz</h1>
+                <p>Test your English skills!</p>
+            </div>
+            
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+
+            <div class="question-box">
+                <div class="question-number" id="question-number">Question 1 of 15</div>
+                <h3 class="question-text" id="question-text">Questions will appear here...</h3>
+                
+                <div class="option-list" id="option-list">
+                </div>
+            </div>
+
+            <div class="btn-box">
+                <button class="btn-submit" id="next-btn" onclick="nextQuestion()" disabled>Next Question</button>
+            </div>
+        </div>
+        <div id="result-container" class="result-box">
+            <div class="result-icon" id="result-icon">🎉</div>
+            <h2 class="result-title" id="result-title">Quiz Finished!</h2>
+            <div class="result-score" id="result-score">0 / 10</div>
+            <p class="result-feedback" id="result-feedback">Feedback...</p>
+            <button class="btn-retry" onclick="location.reload()">Try Again</button>
+        </div>
+
+    </div>
+    <footer>
+©By Raisya Sandiny(2505181092)
+</footer>
+<script src="js.js"></script>
+</body>
+</html>
